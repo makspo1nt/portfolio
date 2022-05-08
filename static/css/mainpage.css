@@ -1,0 +1,31 @@
+body {
+    background: #f3f3f2;
+}
+
+
+.chat {
+    transition: background-color 200ms,box-shadow 200ms ease-out,bottom 200ms ease-out;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 100%;
+    padding: 10px;
+    line-height: 0;
+    background-color: transparent;
+    backface-visibility: hidden;
+}
+
+.chat {
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.chat_image {
+    width: 60px;
+    height: 60px;
+    background-position: 50% 55%;
+    background-repeat: no-repeat;
+}
+

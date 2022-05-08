@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang='ru'>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="{% static 'css/mainpage.css' %}">
+  </head>
+  <body>
+      <h1>Привет!</h1>
+      <br>      
+      <ol class='todo_list'> TODO:
+        <li>Написать скрипт для открытия чата</li>
+        <li>Разобраться с iframe</li>
+        <li>Найти хостинг</li>
+        <li>Разобраться как деплоить через git</li>
+      </ol>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <p>kek</p>
+      <div class='chat' onclick="myFunction()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" fill="none" class='chat_image'>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.75c0-2.1 0-3.15.409-3.952a3.75 3.75 0 011.639-1.64C2.85.75 3.9.75 6 .75h18c2.1 0 3.15 0 3.953.409a3.75 3.75 0 011.638 1.639C30 3.6 30 4.65 30 6.75v10.5c0 2.1 0 3.15-.409 3.953a3.75 3.75 0 01-1.639 1.638c-.802.409-1.852.409-3.952.409h-7.75l-5.183 4.817A.625.625 0 0110 27.625V23.25H6c-2.1 0-3.15 0-3.952-.409a3.75 3.75 0 01-1.64-1.639C0 20.4 0 19.35 0 17.25V6.75zm6.25 1.5C6.25 7.56 6.81 7 7.5 7H20a1.25 1.25 0 110 2.5H7.5c-.69 0-1.25-.56-1.25-1.25zm0 5c0-.69.56-1.25 1.25-1.25h8.333a1.25 1.25 0 110 2.5H7.5c-.69 0-1.25-.56-1.25-1.25z" fill="#333"/>
+        </svg>
+      </div>
+      <script type="text/javascript" src={% static "js/mainpage.js" %}></script>
+  </body>
+</html>
